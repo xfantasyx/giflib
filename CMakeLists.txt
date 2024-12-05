@@ -1,8 +1,4 @@
 cmake_minimum_required(VERSION 3.2)
-if (EMCC)
-    include(../emcc_build/SetPlatformState.cmake)
-endif ()
-include(../cmake/libop.cmake)
 
 project(giflib C)
 
